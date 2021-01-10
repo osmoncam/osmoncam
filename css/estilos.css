@@ -1,0 +1,191 @@
+* {
+      margin: 0;
+}
+
+body{
+      display: flex;
+      justify-content: center;
+      background: #0F2027;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+      font-family: sans-serif;
+
+}
+
+.contenedor__cabecera{
+      width: 1200px;
+      background: #0F2027;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      box-shadow: 10px 5px 5px black;
+      border-radius: 10px;
+}
+
+.cabecera{
+      display: flex;
+}
+
+.cabecera img{
+      width: 250px;
+      border-radius: 0px 0px 0px 10px;
+}
+
+.cabecera-texto{
+      padding: 40px;
+      color: #fff;
+      flex-basis: 700px;
+}
+
+.cabecera-items{
+      padding: 20px;
+}
+
+.cabecera-items li{
+      list-style: none;
+      width: 60px;
+}
+
+.contenedor__pagina{
+      margin-top: 30px;
+      margin-bottom: 60px;
+}
+
+.contenedor__pestaña {
+      
+      box-shadow: 10px 5px 5px black;
+      border: 3px solid;
+      border-radius: 2em 1em 4em / 0.5em 3em;
+      padding: 10px;
+      display: flex;
+      margin-bottom: 20px;
+}
+
+.sandra-fondo{
+      background: #2980B9;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.simon-fondo{
+      background: #1E9600;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.fema-fondo{
+      background: #667db6;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.items-pestaña{
+      flex-basis: 150px;
+}
+
+.imagen-pestaña img{
+      width: 100px;
+}
+
+.items-pestaña-uno{
+      text-align: center;
+      font-size: 20px;
+      padding: 20px 10px 7px 20px;
+}
+
+.items-pestaña-dos{
+      text-align: center;
+}
+
+.items-pestaña-tres ul{
+      display: flex;
+      padding: 0px;
+      flex-flow: row;
+
+}
+
+.items-pestaña-tres li{
+      list-style: none;
+      margin: 5px;
+}
+
+.html{
+      width: 27px;
+}
+
+.css{
+      width: 27px;
+}
+
+.js{
+      width: 33px;
+}
+
+.items-descripcion{
+      padding: 20px 0px 0px 5px;
+}
+
+.items-texto{
+      width: 600px;
+      padding: 10px;
+      flex-basis: 640px;
+      text-align: justify;
+}
+
+.items-boton{
+      margin-top: 40px;
+      
+}
+
+.linkedin img{
+      width: 40px;
+      padding: 10px;
+}
+
+.whatsapp img{
+      width: 40px;
+      padding: 10px;
+}
+
+.github img{
+      width: 40px;
+      padding: 10px;
+}
+
+.cabecera-contenedor-img{
+      height: 250px;
+}
+
+.contenedor-button{
+      margin-top: 20px;
+
+}
+
+.button {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      
+      box-shadow: 10px 5px 5px black;
+}
+
+    
+.button2 {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+}
+
+.button2:hover {
+      background-color: #008CBA;
+      color: white;
+}
