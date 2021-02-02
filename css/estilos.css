@@ -1,92 +1,106 @@
 * {
-      margin: 0;
+    margin: 0;
 }
-
 body{
-      display: flex;
-      justify-content: center;
-      background: #0F2027;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to top, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      
-      font-family: sans-serif;
+    display: flex;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mediaContainerPadre, .mdeiaContenedor__pagina{
+    display: none;
+}
+.container-uno{
+    flex: 0.25;
+}
+.container-dos{
+    flex: 2.5;
+}
+.container-tres{
+    flex: 0.25;
+}
+
+.container--encabezado{
+    display: flex;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 10px 5px 5px black;
+    height: 240px;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 
 }
 
-.contenedor__cabecera{
-      width: 1200px;
-      background: #C9D6FF;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to bottom, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to bottom, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      box-shadow: 10px 5px 5px black;
-      border-radius: 10px;
+.imgEncabezado{
+    margin: 0px;
+    padding: 0px;
 }
 
-.cabecera{
-      display: flex;
+.imgEncabezado img{
+    margin: 0px;
+    padding: 0px;
+    width: 15em;
+    border-radius: 0px 0px 0px 10px;
 }
 
-.cabecera img{
-      width: 250px;
-      border-radius: 0px 0px 0px 10px;
+.linkEncabezado{
+    margin-top: 10px;
 }
 
-.cabecera-texto{
-      padding: 40px;
-      color: #000;
-      flex-basis: 700px;
+.link-git, .link-wasa, .link-linkedin{
+    width: 3em;
 }
 
-.cabecera-items{
-      padding: 20px;
+.DescripcionEncabezado{
+    padding: 30px 30px 0 30px;
+    flex: 1;
 }
 
-.cabecera-items li{
-      list-style: none;
-      width: 60px;
-}
-
-.contenedor__pagina{
-      margin-top: 30px;
-      margin-bottom: 60px;
+.linkEncabezado-contenedor{
+    padding-right: 30px;
 }
 
 .contenedor__pestaña {
       
-      box-shadow: 10px 5px 5px black;
-      border: 3px solid;
-      border-radius: 2em 1em 4em / 0.5em 3em;
-      padding: 10px;
-      display: flex;
-      margin-bottom: 20px;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    padding: 10px;
+    display: flex;
+    margin: 20px 0px 10px 0px ;
 }
 
 .sandra-fondo{
-      background: #2980B9;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .simon-fondo{
-      background: #1E9600;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1E9600;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .fema-fondo{
-      background: #667db6;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
 .react-fondo{
-      background: #00B4DB;  /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
 
 .items-pestaña{
       flex-basis: 150px;
@@ -135,7 +149,7 @@ body{
 }
 
 .items-texto{
-      width: 600px;
+    
       padding: 10px;
       flex-basis: 640px;
       text-align: justify;
@@ -196,3 +210,68 @@ body{
       background-color: #008CBA;
       color: white;
 }
+
+/*seccion para dispositivos con display menos de 500px */
+@media (max-width:500px){
+
+    .containerPadre-encabezado, .contenedor__pagina{
+        display: none;
+    }
+
+    .mediaContainerPadre, .mdeiaContenedor__pagina {
+        display: block;
+    }
+
+    .mediaCuadroUno, .mediaLinkEncabezado-contenedor{
+        display: flex;
+    }
+    .mediaImgEncabezado img{
+        margin: 0px;
+        padding: 0px;
+        width: 7em;
+    }
+    .mediaContainer--encabezado{
+        border-radius: 0px 0px 10px 10px;
+        box-shadow: 10px 5px 5px black;
+        background: #ADA996;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .mediaContenedor__pestaña{
+        margin: 20px 0px 10px 0px;
+        box-shadow: 10px 5px 5px black;
+        border-radius: 2em 1em 4em / 0.5em 3em;
+    }
+    .mediaDescripcionEncabezado{
+        font-size: 10px;
+        margin: 15px;
+    }
+    .mLink{
+        text-align: center;
+    }
+    .mLinkEncabezado1{
+        flex: 1;
+    }
+    .mLinkEncabezado2{
+        flex: 1;
+    }
+    .mLinkEncabezado3{
+        flex: 1;
+    }
+    .mediaItems-pestaña{
+        display: flex;
+    }
+    .mediaItems-texto p{
+        padding: 8px;
+        text-align: justify;
+    }
+    .contenedor-button{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .mediaItems-pestaña-tres li{
+        list-style: none;
+    }
+}
+
