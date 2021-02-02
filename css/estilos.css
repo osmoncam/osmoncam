@@ -212,7 +212,7 @@ body{
 }
 
 /*seccion para dispositivos con display menos de 500px */
-@media (max-width:500px){
+@media (max-width:800px){
 
     .containerPadre-encabezado, .contenedor__pagina{
         display: none;
