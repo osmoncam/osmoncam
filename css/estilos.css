@@ -261,6 +261,7 @@ body{
     }
     .mediaItems-pestaña{
         display: flex;
+        justify-content: center;
     }
     .mediaItems-texto p{
         padding: 8px;
