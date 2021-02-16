@@ -31,9 +31,6 @@ body{
     background: #ADA996;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-
-
 }
 
 .imgEncabezado{
@@ -48,8 +45,17 @@ body{
     border-radius: 0px 0px 0px 10px;
 }
 
-.linkEncabezado{
-    margin-top: 10px;
+.linkEncabezado1{
+    flex: 1;
+}
+.linkEncabezado2{
+    flex: 1;
+}
+.linkEncabezado3{
+    flex: 1;
+}
+.linkEncabezado4{
+    flex: 1;
 }
 
 .link-git, .link-wasa, .link-linkedin{
@@ -63,6 +69,8 @@ body{
 
 .linkEncabezado-contenedor{
     padding-right: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .contenedor__pestaña {
