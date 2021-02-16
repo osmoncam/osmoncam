@@ -1,6 +1,6 @@
 {
   "name": "reactjs-prueba-api",
-  "homepage": "https://oscaremccomco.github.io/crud-reactjs/",
+  "homepage": "https://oscaremccomco.github.io/crud-reactjs/public.index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
